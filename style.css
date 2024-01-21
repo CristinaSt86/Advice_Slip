@@ -1,0 +1,58 @@
+:root {
+  --black:#000;
+  --grey:#313A49;
+  --light-grey:#D9D9D9;
+  --green:#53FFAB;
+}
+body{
+  margin:0;
+  height:100vh;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  width: 540px;
+  height: 335px;
+  background: var(--grey);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+h6{
+  color: var(--green);
+  font-family: 'strait';
+  letter-spacing: 2px;
+  font-weight: 200;
+
+}
+#paragraph{
+  color: var(--light-grey);
+  font-size: 30px;
+  font-family: StratosWeb;
+  font-weight: 400;
+  line-height: 37.8px;
+  padding: 0 62px;
+  text-align: center;
+  margin-top: 0;
+}
+.cerc-verde{
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  bottom: -38px; 
+}
+#zar{
+  position: absolute;
+  bottom: -18px;
+  
+}
+.design{
+  position: absolute;
+  bottom: 48px; 
+}
