@@ -18,9 +18,6 @@ async function getDataFromApi() {
     advice = data.slip.advice;
     id = `Advice #${data.slip.id}`;
     renderAdviceContent(advice, id);
-    // console.log(advice);
-    // console.log(id);
-    console.log(data);
     return advice;
   } catch (eroare) {
     console.log(eroare);

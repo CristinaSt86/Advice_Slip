@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  box-sizing: border-box; 
 }
 .container{
   width: 540px;
@@ -23,6 +23,8 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
+  box-sizing: border-box;
+  margin: 0 24px;
 }
 h6{
   color: var(--green);
@@ -33,13 +35,14 @@ h6{
 }
 #paragraph{
   color: var(--light-grey);
-  font-size: 30px;
+  font-size: 24px;
   font-family: StratosWeb;
   font-weight: 400;
   line-height: 37.8px;
   padding: 0 62px;
   text-align: center;
   margin-top: 0;
+  /* overflow-y:auto; */
 }
 .cerc-verde{
   width: 65px;
@@ -55,4 +58,12 @@ h6{
 .design{
   position: absolute;
   bottom: 48px; 
+  width: 20rem;
+}
+
+@media (max-width: 768px) {
+  .design{
+    width: 14rem;
+  }
+  
 }
